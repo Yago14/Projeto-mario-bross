@@ -1,0 +1,49 @@
+@media (max-width: 1200px){
+      body{
+            background-color: rgb(68, 9, 156);
+      }
+      .fundo-video{
+            display: none;
+
+      }
+      .container{
+            flex-wrap: wrap;
+            justify-content: center;
+            height: auto;
+            gap: 3px;
+      }
+      .container .mario{
+            max-width: 50%;
+
+      }
+      .container .informacoes{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+      }
+      .informacoes p{
+            color:#fff ; 
+            margin: 1rem;
+       }
+      
+}
+@media(max-width:500px){
+      body{
+            background-color: orange;
+      }
+      .informacoes p{
+           color:#fff ; 
+           margin: 1rem;
+      }
+      .cabecalho{
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0 0 1.5rem 0;
+      }
+      .container .titulo{
+            width: 300px;
+            max-width: 75%;
+
+      }
+
+}
