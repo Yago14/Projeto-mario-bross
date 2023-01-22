@@ -1,49 +1,63 @@
-@media (max-width: 1200px){
-      body{
-            background-color: rgb(68, 9, 156);
+@media (max-width: 1200px) {
+      body {
+         background-color: hsl(258, 100%, 55%);
       }
-      .fundo-video{
-            display: none;
-
+  
+      .fundo-video {
+          display: none;
       }
-      .container{
-            flex-wrap: wrap;
-            justify-content: center;
-            height: auto;
-            gap: 3px;
+  
+      .container {
+          flex-wrap: wrap;
+          justify-content: center;
+          height: auto;
+          gap: 30px;
       }
-      .container .mario{
-            max-width: 50%;
-
+  
+      .container .mario {
+          max-width: 50%;
       }
-      .container .informacoes{
-            display: flex;
-            align-items: center;
-            flex-direction: column;
+  
+      .container .informacoes {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
       }
-      .informacoes p{
-            color:#fff ; 
-            margin: 1rem;
-       }
-      
-}
-@media(max-width:500px){
-      body{
-            background-color: orange;
+  
+      .container .descricao {
+          color: #ffffff;
+          text-align: center;
       }
-      .informacoes p{
-           color:#fff ; 
-           margin: 1rem;
+  
+      .container .botao-trailer {
+          background-color: #263238;
       }
-      .cabecalho{
-            flex-wrap: wrap;
-            justify-content: center;
-            margin: 0 0 1.5rem 0;
+  }
+  
+  @media (max-width: 500px) {
+      .cabecalho {
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 10px;
       }
-      .container .titulo{
-            width: 300px;
-            max-width: 75%;
-
+  
+      .container .imagem-titulo {
+          max-width: 75%;
       }
-
-}
+  
+      .modal .fechar-modal {
+          line-height: 30px;
+      }
+  
+      .modal #video {
+          width: 300px;
+          height: 169px;
+      }
+  }
+  
+  @media (max-width: 376px) {
+      .modal #video {
+          width: 250px;
+          height: 140px;
+      }
+  }
