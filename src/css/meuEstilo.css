@@ -139,6 +139,7 @@ html body {
 .fechar-modal {
     padding: 1rem 1.3rem;
     background-color: #fff;
+    opacity: 50%;
     border-radius: 3rem;
     color: #ff0021;
     font-weight: bold;

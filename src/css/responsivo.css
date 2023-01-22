@@ -24,9 +24,10 @@
           flex-direction: column;
       }
   
-      .container .imagem-titulo {
+      .container .titulo {
           color: #ffffff;
           text-align: center;
+          margin: 3rem;
       }
   
       .container .botao-trailer {
@@ -44,8 +45,12 @@
           gap: 10px;
       }
   
-      .container .imagem-titulo {
+      .container .titulo {
           max-width: 75%;
+          margin-top: 3rem;
+      }
+      .informacoes p{
+        color: #fff;
       }
   
       .modal .fechar-modal {
