@@ -24,7 +24,7 @@
           flex-direction: column;
       }
   
-      .container .descricao {
+      .container .imagem-titulo {
           color: #ffffff;
           text-align: center;
       }
@@ -35,6 +35,9 @@
   }
   
   @media (max-width: 500px) {
+      body{
+            background-color:rgba(255, 166, 0, 0.895) ;
+      }
       .cabecalho {
           flex-wrap: wrap;
           justify-content: center;
